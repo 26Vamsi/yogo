@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+/* ------------------------nav-bar----------------------------------- */
+.header {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(61,59,189,1) 0%, rgba(27,27,209,1) 33%, rgba(0,212,255,1) 100%);
+}
+.navbar {
+    padding-top: 20px !important;
+}
+.nav-item {
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.nav-link {
+    color: #fff !important;
+    font-size: 16px;
+    padding: 0 0 5px 0;
+    display: unset !important;
+}
+.navbar-brand img {
+    width: 125px;
+}
+.navbar-toggler {
+    border: 0 !important;
+    outline: none !important;
+    padding: initial !important;
+}
+.active-home {
+    border-bottom: 2px solid #fff;
+}
+.nav-link:hover {
+    border-bottom: 2px solid #fff;
+}
+/* ----------------------Banner------------------------------------- */
+.banner {
+    margin-top: 8%;
+    color: #fff;
+}
+.banner h1 {
+    margin: 80px 0 50px;
+    font-weight: 600;
+    font-size: 50px;
+}
+.banner img {
+    max-height: 500px;
+}
+.banner a {
+    padding: 12px;
+    width: 150px;
+    text-decoration: none !important;
+    display: inline-block;
+    background : linear-gradient(90deg, rgba(2,0,36,1) 0%,  rgba(0,212,255,1) 100%, rgba(61,59,189,1) 0%, );
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+
+}
+.banner a:hover {
+    color: #fff;
+}
+.express-btn {
+    background: #fff !important;
+    color: black !important;
+    margin-right: 5px;
+}
